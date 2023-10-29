@@ -1,0 +1,137 @@
+compiler
+    transcompiler.py
+core
+    Arguments.py
+    CallStack.py
+    ClassDeclarations.py
+    Classes.py
+    Converters.py
+    Function.py
+    Instantiable.py
+    KEYWORD.py
+    Stop.py
+    Types.py
+    ValueUtils.py
+
+libraries
+
+parser
+
+    ast
+        Accessible.py
+        Argument.py
+        Arguments.py
+        ArrayExpression.py
+        AssignmentExpression.py
+        AssignmentStatement.py
+        BinaryExpression.py
+        BreakStatement.py
+        ClassDeclarationStatement.py
+        ConditionalExpression.py
+        ContainerAccessExpression.py
+        ContinueStatement.py
+        DestructuringAssignmentStatement.py
+        DPointExpression.py
+        Expression.py
+        ExprStatement.py
+        ForeachAStatement.py
+        ForeachMStatement.py
+        ForStatement.py
+        FunctionalExpression.py
+        FunctionDefineStatement.py
+        IfStatement.py
+        IncludeStatement.py
+        InterruptableNode.py
+        MapExpression.py
+        MatchExpression.py
+        MStatement.py
+        Node.py
+        ObjectCreationExpression.py
+        PrintlnStatement.py
+        PrintStatement.py
+        ResultVisitor.py
+        ReturnStatement.py
+        Statement.py
+        TernaryExpression.py
+        ThrowStatement.py
+        UnaryExpression.py
+        UsingStatement.py
+        ValueExpression.py
+        VariableExpression.py
+        Visitor.py
+        WhileStatement.py
+
+    optimization
+        ConstantFolding.py
+        ConstantPropagation.py
+        DeadCodeElimination.py
+        ExpressionSimplification.py
+        InstructionCombining.py
+        Optimizable.py
+        OptimizationVisitor.py
+        SummaryOptimization.py
+        VariableInfo.py
+        VariablesGrabber.py
+
+    pars
+        AbstractVisitor.py
+        Beautifier.py
+        Console.py
+        COUT_Setting.py
+        ECHO.py
+        FILTER.py
+        FLATMAP.py
+        FOREACH.py
+        FunctionAdder.py
+        INPUT.py
+        LEN.py
+        Lexer.py
+        MAP.py
+        ModuleDetector.py
+        Optimizer.py
+        OutputSettings.py
+        PARSE.py
+        ParseError.py
+        ParseErrors.py
+        Parser.py
+        PrintVisitor.py
+        RANGE.py
+        REDUCE.py
+        SourceLoader.py
+        SOUT_Setting.py
+        SPRINTF.py
+        STR.py
+        SUBSTR.py
+        Token.py
+        TokenType.py
+        VariablePrinter.py
+        VisitorUtils.py
+patterns
+    ConsPattern.py
+    ConstantPattern.py
+    PackPattern.py
+    Pattern.py
+    VariablePattern.py
+
+PYLZREx
+    OExeption.py
+    PYLZRExeption.py
+    VarExeption.py
+
+runtime
+    PYLZR
+        PYLZRArray.py
+        PYLZRFunction.py
+        PYLZRMap.py
+        PYLZRNumber.py
+        PYLZRString.py
+    ClassInstanceValue.py
+    ClassMethod.py
+    Time.py
+    UserDefinedFunction.py
+    Value.py
+    Variables.py
+
+Handler.py
+Log.py
+main.py
